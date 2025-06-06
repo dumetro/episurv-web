@@ -1,20 +1,24 @@
-# Episurv Web App
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project was bootstrapped with Create React App using TypeScript.
+## Getting Started
 
-## Available Scripts
+First, run the development server:
 
-In the project directory, you can run:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### `npm start`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Runs the app in development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Learn More
 
-### `npm test`
+To learn more about Next.js, take a look at the following resources:
 
-Launches the test runner in the interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.

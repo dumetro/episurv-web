@@ -34,7 +34,13 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Migrations
+```bash
+# create migration
+$ npx typeorm-ts-node-commonjs migration:generate src/database/migrations/InitUserTable -d src/database/data-source.ts
 
+#run migration
+```
 ## Deployment
 
 [deployment documentation](https://docs.nestjs.com/deployment) for more information.
